@@ -11,17 +11,17 @@ class App extends Component {
   render() {
     return (
       <div>
-
+  <input/>
         <h1>
           <pre>LoginForm</pre>
         </h1>
         <LoginForm handleLogin={this.login} />
-
+      <input type="text"
         <h1>
           <pre>TwitterMessage</pre>
         </h1>
         <TwitterMessage maxChars={280} />
-
+        />
 
 
       </div>
